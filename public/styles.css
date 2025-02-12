@@ -1,0 +1,26 @@
+:root {
+    --primary-text-color: #c6c9ca;
+    --secondary-text-color: #ffffff;
+    --primary-page-color: #09171d;
+    --accent-color: #5cebdf;
+    --accent-color-alternate: #ff6b60;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-page-color);
+    color: var(--primary-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+a {
+    color: var(--secondary-text-color)
+}
