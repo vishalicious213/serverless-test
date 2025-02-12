@@ -10,10 +10,24 @@
 <body>
     <main>
         <h1>Netlify Functions Test</h1>
+
+        <form>
+            <label for="name">Name</label>
+            <input 
+                type="text"
+                id="name"
+                name="name"
+                placeholder="name"
+                required
+            >
+            <button id="nameBtn" type="button">Show name</button>
+        </form>
+
         <ul>
             <li><a href="/.netlify/functions/hello?name=you">Hello World</a> ( /.netlify/functions/hello?name=you )</li>
             <li><a href="/api/hello?name=you">Hello World</a> ( /api/hello?name=you )</li>
         </ul>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

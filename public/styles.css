@@ -25,3 +25,11 @@ h1 {
 a {
     color: #ffffff;
 }
+
+form {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: .1rem .25rem;
+}
