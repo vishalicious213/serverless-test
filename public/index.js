@@ -13,7 +13,7 @@ function logName() {
 
 async function sendNetlify() {
     try {
-        const response = await fetch(`/.netlify/functions/hello?name=${nameField.value}`)
+        const response = await fetch(`/.netlify/functions/sendName?name=${nameField.value}`)
         const data = await response.json()
         console.log(data.body)
     } catch (error) {
