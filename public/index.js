@@ -15,7 +15,8 @@ async function sendNetlify() {
     try {
         const response = await fetch(`/.netlify/functions/sendName?name=${nameField.value}`)
         const data = await response.json()
-        console.log(data.body)
+        console.log(data)
+        console.log(data.message)
     } catch (error) {
         console.log("Error fetching name response", error)
     }
