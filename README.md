@@ -2,6 +2,8 @@
 
 This project is a simple demonstration of serverless functionality, using Netlify Functions. It features two anchor links and two buttons, which allow users to interact with serverless functions that navigate to pages or send back responses in the console, respectively.
 
+__Deployed at:__ https://vish213-serverless-test.netlify.app/
+
 ## Features
 
 - Two anchor tags for external navigation
