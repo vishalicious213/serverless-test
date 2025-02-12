@@ -11,6 +11,8 @@ __Deployed at:__ https://vish213-serverless-test.netlify.app/
 
 One anchor tag & one button makes a standard API call to the serverless function. A 2nd anchor tag & button make calls using the path to the serverless function, to demonstrate how to use each method. They both return the same results using string query parameters.
 
+To see the results of the button clicks, open the browser's developer tools and go to the `console` tab. The JSON message responses will display there.
+
 ## Technologies Used
 
 - HTML5 – Structuring the web page
