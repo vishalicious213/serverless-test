@@ -33,3 +33,12 @@ form {
 button {
     padding: .1rem .25rem;
 }
+
+.sendNameSection {
+    margin-top: 1rem;
+}
+
+.sendNameSection button {
+    margin: 1rem;
+    width: 8rem;
+}
